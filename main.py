@@ -1,25 +1,18 @@
-import requests
+from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
-def scrape_website():
-    url = "https://www.toyota.com/search-inventory/"
+    # Define type of session being used for requests lib
+session = HTMLSession()
+
     # Send an HTTP request to the URL
-    response = requests.get(url)
+response = session.get('https://www.toyota.com/all-vehicles/')
 
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        # Parse the HTML content of the page
-        soup = BeautifulSoup(response.text, 'html.parser')
+response.html.render()
 
-        # Extract data using BeautifulSoup methods
-        # Example: Print all the text content of <p> tags
-        for paragraph in soup.find_all('p'):
-            print(paragraph.get_text())
+#print(response.text)
 
-    else:
-        print(f"Failed to retrieve the page. Status code: {response.status_code}")
+a = response.html.find('vehicles-grid')
+print(a)
 
-if __name__ == "__main__":
-    # Replace 'https://example.com' with the URL of the website you want to scrape
-    website_url = 'https://example.com'
-    scrape_website(website_url)
+about = response.html.find('vehicles-grid', first=False)
+print(.text)
