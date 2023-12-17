@@ -11,8 +11,23 @@ response.html.render()
 
 #print(response.text)
 
-a = response.html.find('vehicles-grid')
-print(a)
+msrp = response.html.find('.header' '.body-01', containing="$")
+for i in range(50):
+    if msrp:
+        print(msrp[i].text)
+    else:
+        print("No MSRP")
 
-about = response.html.find('vehicles-grid', first=False)
-print(.text)
+model = response.html.find('.title' '.heading-04')
+for i in range(50):
+    if model:
+        print(model[i].text)
+    else:
+        print("No Model")
+
+modelYear = response.html.find('.model-year')
+for i in range(50):
+    if modelYear:
+        print(modelYear[i].text)
+    else:
+        print("No Model Year")
