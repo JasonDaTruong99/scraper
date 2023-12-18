@@ -1,0 +1,252 @@
+[
+  {
+    "Model": "4Runner",
+    "Year": "2023",
+    "MSRP": "$40,155"
+  },
+  {
+    "Model": "4Runner",
+    "Year": "2024",
+    "MSRP": "$40,455"
+  },
+  {
+    "Model": "bZ4X",
+    "Year": "2023",
+    "MSRP": "$42,000"
+  },
+  {
+    "Model": "Camry",
+    "Year": "2024",
+    "MSRP": "$26,420"
+  },
+  {
+    "Model": "Camry Hybrid",
+    "Year": "2024",
+    "MSRP": "$28,855"
+  },
+  {
+    "Model": "Corolla",
+    "Year": "2023",
+    "MSRP": "$21,700"
+  },
+  {
+    "Model": "Corolla",
+    "Year": "2024",
+    "MSRP": "$21,900"
+  },
+  {
+    "Model": "Corolla Cross",
+    "Year": "2023",
+    "MSRP": "$23,610"
+  },
+  {
+    "Model": "Corolla Cross",
+    "Year": "2024",
+    "MSRP": "$23,610"
+  },
+  {
+    "Model": "Corolla Cross Hybrid",
+    "Year": "2023",
+    "MSRP": "$27,970"
+  },
+  {
+    "Model": "Corolla Cross Hybrid",
+    "Year": "2024",
+    "MSRP": "$27,970"
+  },
+  {
+    "Model": "Corolla Hatchback",
+    "Year": "2024",
+    "MSRP": "$23,355"
+  },
+  {
+    "Model": "Corolla Hybrid",
+    "Year": "2023",
+    "MSRP": "$23,050"
+  },
+  {
+    "Model": "Corolla Hybrid",
+    "Year": "2024",
+    "MSRP": "$23,300"
+  },
+  {
+    "Model": "GR86",
+    "Year": "2023",
+    "MSRP": "$28,400"
+  },
+  {
+    "Model": "GR Corolla",
+    "Year": "2023",
+    "MSRP": "$35,900"
+  },
+  {
+    "Model": "GR Corolla",
+    "Year": "2024",
+    "MSRP": "$36,100"
+  },
+  {
+    "Model": "GR Supra",
+    "Year": "2023",
+    "MSRP": "$44,640"
+  },
+  {
+    "Model": "GR Supra",
+    "Year": "2024",
+    "MSRP": "$45,540"
+  },
+  {
+    "Model": "Highlander",
+    "Year": "2023",
+    "MSRP": "$36,620"
+  },
+  {
+    "Model": "Highlander",
+    "Year": "2024",
+    "MSRP": "$39,120"
+  },
+  {
+    "Model": "Highlander Hybrid",
+    "Year": "2023",
+    "MSRP": "$40,620"
+  },
+  {
+    "Model": "Highlander Hybrid",
+    "Year": "2024",
+    "MSRP": "$40,720"
+  },
+  {
+    "Model": "Grand Highlander",
+    "Year": "2024",
+    "MSRP": "$43,070"
+  },
+  {
+    "Model": "Grand Highlander Hybrid",
+    "Year": "2024",
+    "MSRP": "$44,670"
+  },
+  {
+    "Model": "Mirai",
+    "Year": "2023",
+    "MSRP": "$49,500"
+  },
+  {
+    "Model": "Prius",
+    "Year": "2023",
+    "MSRP": "$27,450"
+  },
+  {
+    "Model": "Prius",
+    "Year": "2024",
+    "MSRP": "$27,650"
+  },
+  {
+    "Model": "Prius Prime",
+    "Year": "2023",
+    "MSRP": "$32,350"
+  },
+  {
+    "Model": "Prius Prime",
+    "Year": "2024",
+    "MSRP": "$32,675"
+  },
+  {
+    "Model": "RAV4",
+    "Year": "2023",
+    "MSRP": "$28,275"
+  },
+  {
+    "Model": "RAV4",
+    "Year": "2024",
+    "MSRP": "$28,475"
+  },
+  {
+    "Model": "RAV4 Hybrid",
+    "Year": "2023",
+    "MSRP": "$31,225"
+  },
+  {
+    "Model": "RAV4 Hybrid",
+    "Year": "2024",
+    "MSRP": "$31,475"
+  },
+  {
+    "Model": "RAV4 Prime",
+    "Year": "2023",
+    "MSRP": "$43,090"
+  },
+  {
+    "Model": "RAV4 Prime",
+    "Year": "2024",
+    "MSRP": "$43,440"
+  },
+  {
+    "Model": "Sienna",
+    "Year": "2023",
+    "MSRP": "$36,885"
+  },
+  {
+    "Model": "Sienna",
+    "Year": "2024",
+    "MSRP": "$37,185"
+  },
+  {
+    "Model": "Sequoia",
+    "Year": "2023",
+    "MSRP": "$59,865"
+  },
+  {
+    "Model": "Sequoia",
+    "Year": "2024",
+    "MSRP": "$60,875"
+  },
+  {
+    "Model": "Tacoma",
+    "Year": "2023",
+    "MSRP": "$28,600"
+  },
+  {
+    "Model": "Tacoma",
+    "Year": "2024",
+    "MSRP": "$31,500"
+  },
+  {
+    "Model": "Toyota Crown",
+    "Year": "2023",
+    "MSRP": "$39,950"
+  },
+  {
+    "Model": "Toyota Crown",
+    "Year": "2024",
+    "MSRP": "$40,050"
+  },
+  {
+    "Model": "Tundra",
+    "Year": "2023",
+    "MSRP": "$38,965"
+  },
+  {
+    "Model": "Tundra",
+    "Year": "2024",
+    "MSRP": "$39,965"
+  },
+  {
+    "Model": "Tundra i-FORCE MAX",
+    "Year": "2023",
+    "MSRP": "$56,415"
+  },
+  {
+    "Model": "Tundra i-FORCE MAX",
+    "Year": "2024",
+    "MSRP": "$57,625"
+  },
+  {
+    "Model": "Venza",
+    "Year": "2023",
+    "MSRP": "$34,620"
+  },
+  {
+    "Model": "Venza",
+    "Year": "2024",
+    "MSRP": "$34,920"
+  }
+]
