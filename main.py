@@ -1,9 +1,6 @@
 from requests_html import HTMLSession
 import json
 
-# create a dynamic list to write car data to
-toyotaDataList = []
-
 def getCarData(session, url, qty):
     # Send an HTTP request to the URL
     response = session.get('https://www.toyota.com/all-vehicles/')
@@ -27,7 +24,7 @@ def getCarData(session, url, qty):
             } 
             carDataList.append(carData)
         return carDataList
-        
+
     else:
         print("Inconsistent Data Lengths. Printing length of lists: MSRP, Model, Model Year \n") 
         print(len(msrp))
@@ -44,7 +41,6 @@ def main():
 
     url = 'https://www.toyota.com/all-vehicles/'
     toyotaQty = 50
-
     toyotaDataList = getCarData(session, url, toyotaQty)
 
     if toyotaDataList:
