@@ -1,5 +1,4 @@
 from requests_html import HTMLSession
-from bs4 import BeautifulSoup
 import json
 
 # Define type of session being used for requests lib
