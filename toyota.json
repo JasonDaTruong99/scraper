@@ -1,250 +1,300 @@
 [
   {
+    "Make": "Toyota",
     "Model": "4Runner",
     "Year": "2023",
     "MSRP": "$40,155"
   },
   {
+    "Make": "Toyota",
     "Model": "4Runner",
     "Year": "2024",
     "MSRP": "$40,455"
   },
   {
+    "Make": "Toyota",
     "Model": "bZ4X",
     "Year": "2023",
     "MSRP": "$42,000"
   },
   {
+    "Make": "Toyota",
     "Model": "Camry",
     "Year": "2024",
     "MSRP": "$26,420"
   },
   {
+    "Make": "Toyota",
     "Model": "Camry Hybrid",
     "Year": "2024",
     "MSRP": "$28,855"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla",
     "Year": "2023",
     "MSRP": "$21,700"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla",
     "Year": "2024",
     "MSRP": "$21,900"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Cross",
     "Year": "2023",
     "MSRP": "$23,610"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Cross",
     "Year": "2024",
     "MSRP": "$23,610"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Cross Hybrid",
     "Year": "2023",
     "MSRP": "$27,970"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Cross Hybrid",
     "Year": "2024",
     "MSRP": "$27,970"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Hatchback",
     "Year": "2024",
     "MSRP": "$23,355"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Hybrid",
     "Year": "2023",
     "MSRP": "$23,050"
   },
   {
+    "Make": "Toyota",
     "Model": "Corolla Hybrid",
     "Year": "2024",
     "MSRP": "$23,300"
   },
   {
+    "Make": "Toyota",
     "Model": "GR86",
     "Year": "2023",
     "MSRP": "$28,400"
   },
   {
+    "Make": "Toyota",
     "Model": "GR Corolla",
     "Year": "2023",
     "MSRP": "$35,900"
   },
   {
+    "Make": "Toyota",
     "Model": "GR Corolla",
     "Year": "2024",
     "MSRP": "$36,100"
   },
   {
+    "Make": "Toyota",
     "Model": "GR Supra",
     "Year": "2023",
     "MSRP": "$44,640"
   },
   {
+    "Make": "Toyota",
     "Model": "GR Supra",
     "Year": "2024",
     "MSRP": "$45,540"
   },
   {
+    "Make": "Toyota",
     "Model": "Highlander",
     "Year": "2023",
     "MSRP": "$36,620"
   },
   {
+    "Make": "Toyota",
     "Model": "Highlander",
     "Year": "2024",
     "MSRP": "$39,120"
   },
   {
+    "Make": "Toyota",
     "Model": "Highlander Hybrid",
     "Year": "2023",
     "MSRP": "$40,620"
   },
   {
+    "Make": "Toyota",
     "Model": "Highlander Hybrid",
     "Year": "2024",
     "MSRP": "$40,720"
   },
   {
+    "Make": "Toyota",
     "Model": "Grand Highlander",
     "Year": "2024",
     "MSRP": "$43,070"
   },
   {
+    "Make": "Toyota",
     "Model": "Grand Highlander Hybrid",
     "Year": "2024",
     "MSRP": "$44,670"
   },
   {
+    "Make": "Toyota",
     "Model": "Mirai",
     "Year": "2023",
     "MSRP": "$49,500"
   },
   {
+    "Make": "Toyota",
     "Model": "Prius",
     "Year": "2023",
     "MSRP": "$27,450"
   },
   {
+    "Make": "Toyota",
     "Model": "Prius",
     "Year": "2024",
     "MSRP": "$27,650"
   },
   {
+    "Make": "Toyota",
     "Model": "Prius Prime",
     "Year": "2023",
     "MSRP": "$32,350"
   },
   {
+    "Make": "Toyota",
     "Model": "Prius Prime",
     "Year": "2024",
     "MSRP": "$32,675"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4",
     "Year": "2023",
     "MSRP": "$28,275"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4",
     "Year": "2024",
     "MSRP": "$28,475"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4 Hybrid",
     "Year": "2023",
     "MSRP": "$31,225"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4 Hybrid",
     "Year": "2024",
     "MSRP": "$31,475"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4 Prime",
     "Year": "2023",
     "MSRP": "$43,090"
   },
   {
+    "Make": "Toyota",
     "Model": "RAV4 Prime",
     "Year": "2024",
     "MSRP": "$43,440"
   },
   {
+    "Make": "Toyota",
     "Model": "Sienna",
     "Year": "2023",
     "MSRP": "$36,885"
   },
   {
+    "Make": "Toyota",
     "Model": "Sienna",
     "Year": "2024",
     "MSRP": "$37,185"
   },
   {
+    "Make": "Toyota",
     "Model": "Sequoia",
     "Year": "2023",
     "MSRP": "$59,865"
   },
   {
+    "Make": "Toyota",
     "Model": "Sequoia",
     "Year": "2024",
     "MSRP": "$60,875"
   },
   {
+    "Make": "Toyota",
     "Model": "Tacoma",
     "Year": "2023",
     "MSRP": "$28,600"
   },
   {
+    "Make": "Toyota",
     "Model": "Tacoma",
     "Year": "2024",
     "MSRP": "$31,500"
   },
   {
+    "Make": "Toyota",
     "Model": "Toyota Crown",
     "Year": "2023",
     "MSRP": "$39,950"
   },
   {
+    "Make": "Toyota",
     "Model": "Toyota Crown",
     "Year": "2024",
     "MSRP": "$40,050"
   },
   {
+    "Make": "Toyota",
     "Model": "Tundra",
     "Year": "2023",
     "MSRP": "$38,965"
   },
   {
+    "Make": "Toyota",
     "Model": "Tundra",
     "Year": "2024",
     "MSRP": "$39,965"
   },
   {
+    "Make": "Toyota",
     "Model": "Tundra i-FORCE MAX",
     "Year": "2023",
     "MSRP": "$56,415"
   },
   {
+    "Make": "Toyota",
     "Model": "Tundra i-FORCE MAX",
     "Year": "2024",
     "MSRP": "$57,625"
   },
   {
+    "Make": "Toyota",
     "Model": "Venza",
     "Year": "2023",
     "MSRP": "$34,620"
   },
   {
+    "Make": "Toyota",
     "Model": "Venza",
     "Year": "2024",
     "MSRP": "$34,920"
