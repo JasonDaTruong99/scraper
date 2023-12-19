@@ -1,7 +1,7 @@
 from requests_html import AsyncHTMLSession, HTML
 import json
 
-'''async def getToyotaData(session, qty):
+async def getToyotaData(session, qty):
     # Send an HTTP request to the URL
     response = await get_toyota(session)
 
@@ -17,11 +17,15 @@ import json
         for i in range(qty):
             # msrp stores dollar amount in reverse correlation to the correct model & year, making an index for it and making it a func of i allows us to get around this
             msrpIndex = qty - i - 1
+            print("Enter Kelly Blue Book URL for " + modelYear[i].text + " " + model[i].text)
+            url = input()
+            averagePrice = await getKellyPrices(url, session)
             carData = {
             'Make' : "Toyota",
             'Model': model[i].text,
             'Year' : modelYear[i].text,
-            'MSRP' : msrp[msrpIndex].text
+            'MSRP' : msrp[msrpIndex].text,
+            'Average Price': averagePrice
             } 
             carDataList.append(carData)
         return carDataList
@@ -32,20 +36,36 @@ import json
         print(len(model))
         print(len(modelYear))
         print(qty)
-        return False'''
+        return False
 
 def writeToJson(dataList, filename):
     with open(filename, "w") as file_object:
         json.dump(dataList, file_object, indent = 2)
 
-'''async def get_toyota(session):
+async def get_toyota(session):
     try:
         response = await session.get('https://www.toyota.com/all-vehicles/')
         await response.html.arender()
         return response
     except Exception as e:
         print(f"Error fetching Toyota data: {e}")
-        return None'''
+        return None
+
+async def getKellyPrices(url, session):
+    try:
+        selector ='.item-card .positioned-overlay-base .margin-left-auto.col-xs-4.text-right.pull-right > div > span.first-price.text-ultra-bold'
+        kResponse = await session.get(url)
+        await kResponse.html.arender()
+        prices = kResponse.html.find(selector)
+        sumPrices = sum(float(price.text.replace('$', '').replace(',', '')) for price in prices)
+        print(len(prices))
+        for price in prices:
+            print(" These are the prices of the car" + prices.text)
+        avg = sumPrices/len(prices)
+        return avg
+    except Exception as e:
+        print(f"Error fetching prices from KBB: {e}")
+        return None 
 
 async def main():
     session = AsyncHTMLSession()
@@ -55,7 +75,7 @@ async def main():
 
     if toyotaDataList:
         # Call function to write the list contents into the json file
-        filename = "toyota.json"
+        filename = "json_files/toyota.json"
         writeToJson(toyotaDataList, filename)
         print(f"Data written to {filename}")
 
