@@ -1,37 +1,44 @@
 [
-    {
-        "Model": "Integra",
-        "Year": "2024",
-        "MSRP": "$31,500"
-    },
-    {
-        "Model": "TLX",
-        "Year": "2023",
-        "MSRP": "$39,850"
-    },
-    {
-        "Model": "TLX Type S",
-        "Year": "2023",
-        "MSRP": "$55,550"
-    },
-    {
-        "Model": "RDX",
-        "Year": "2024",
-        "MSRP": "$44,050"
-    },
-    {
-        "Model": "MDX",
-        "Year": "2024",
-        "MSRP": "$49,850"
-    },
-    {
-        "Model": "MDX Type S",
-        "Year": "2024",
-        "MSRP": "$68,150"
-    },
-    {
-        "Model": "ZDX",
-        "Year": "2023",
-        "MSRP": "Coming Soon"
-    }
+  {
+    "Make": "Acura",
+    "Model": "Integra",
+    "Year": "2024",
+    "MSRP": "$31,500"
+  },
+  {
+    "Make": "Acura",
+    "Model": "TLX",
+    "Year": "2024",
+    "MSRP": "$45,000"
+  },
+  {
+    "Make": "Acura",
+    "Model": "TLX Type S",
+    "Year": "2024",
+    "MSRP": "$57,000"
+  },
+  {
+    "Make": "Acura",
+    "Model": "RDX",
+    "Year": "2024",
+    "MSRP": "$44,050"
+  },
+  {
+    "Make": "Acura",
+    "Model": "MDX",
+    "Year": "2024",
+    "MSRP": "$49,850"
+  },
+  {
+    "Make": "Acura",
+    "Model": "MDX Type S",
+    "Year": "2024",
+    "MSRP": "$68,150"
+  },
+  {
+    "Make": "Acura",
+    "Model": "ZDX",
+    "Year": "2024",
+    "MSRP": "Starting MSRP Coming Soon"
+  }
 ]
