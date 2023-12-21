@@ -1,0 +1,56 @@
+[
+  {
+    "Make": "Mazda",
+    "Model": "Mazda3 Sedan",
+    "Year": "2024",
+    "MSRP": "$24,170"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "Mazda3 Hatchback",
+    "Year": "2024",
+    "MSRP": "$25,690"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "CX-90",
+    "Year": "2024",
+    "MSRP": "$39,595"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "CX-90 PHEV",
+    "Year": "2024",
+    "MSRP": "$49,945"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "CX-50",
+    "Year": "2024",
+    "MSRP": "$30,300"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "CX-30",
+    "Year": "2024",
+    "MSRP": "$24,995"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "CX-5",
+    "Year": "2024",
+    "MSRP": "$29,300"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "MX-5 Miata",
+    "Year": "2023",
+    "MSRP": "$28,050"
+  },
+  {
+    "Make": "Mazda",
+    "Model": "MX-5 Miata RF",
+    "Year": "2023",
+    "MSRP": "$35,750"
+  }
+]
