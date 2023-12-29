@@ -317,11 +317,11 @@ async def main():
     '''acuraQty = 7
     lexusDataList = await getAcuraData(session, acuraQty)'''
 
-    mazdaOty = 9
-    mazdaDataList = await getMazdaData(session, mazdaOty)
+    '''mazdaOty = 9
+    mazdaDataList = await getMazdaData(session, mazdaOty)'''
 
-    '''nissanOty = 0
-    nissanDataList = await getNissanData(session, nissanOty)'''
+    nissanOty = 0
+    nissanDataList = await getNissanData(session, nissanOty)
 
     '''hondaOty = 0
     hondaDataList = await getHondaData(session, hondaOty)'''
@@ -345,18 +345,17 @@ async def main():
         writeToJson(acuraDataList, filename)
         print(f"Data written to {filename}")'''
     
-    if mazdaDataList:
+    '''if mazdaDataList:
         # Call function to write the list contents into the json file
         filename = "json_files/mazda.json"
         writeToJson(mazdaDataList, filename)
-        print(f"Data written to {filename}")
+        print(f"Data written to {filename}")'''
 
-    #NOT DONE
-    '''if nissanDataList:
+    if nissanDataList:
         # Call function to write the list contents into the json file
         filename = "json_files/nissan.json"
         writeToJson(nissanDataList, filename)
-        print(f"Data written to {filename}")'''
+        print(f"Data written to {filename}")
 
     #NOT DONE
     '''if hondaDataList:
