@@ -1,0 +1,92 @@
+[
+    {
+      "Make": "Honda",
+      "Model": "HR-V",
+      "Year": "2024",
+      "MSRP": "$24,600"
+    },
+    {
+      "Make": "Honda",
+      "Model": "CR-V",
+      "Year": "2024",
+      "MSRP": "$29,500"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Pilot",
+      "Year": "2023",
+      "MSRP": "$37,090"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Passport",
+      "Year": "2024",
+      "MSRP": "$41,900"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Civic Sedan",
+      "Year": "2024",
+      "MSRP": "$23,950"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Accord Sedan",
+      "Year": "2024",
+      "MSRP": "$27,895"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Civic Si Sedan",
+      "Year": "2024",
+      "MSRP": "$29,100"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Civic Hatchback",
+      "Year": "2024",
+      "MSRP": "$24,950"
+    },
+    {
+      "Make": "Honda",
+      "Model": "Civic Type R",
+      "Year": "2024",
+      "MSRP": "$44,795"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Odyssey",
+        "Year": "2024",
+        "MSRP": "$38,240"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Ridgeline",
+        "Year": "2023",
+        "MSRP": "$39,750"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Accord Hybrid",
+        "Year": "2024",
+        "MSRP": "$32,895"
+    },
+    {
+        "Make": "Honda",
+        "Model": "CR-V Hybrid",
+        "Year": "2024",
+        "MSRP": "$34,050"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Ridgeline",
+        "Year": "2023",
+        "MSRP": "$38,800"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Passport",
+        "Year": "2023",
+        "MSRP": "$41,100"
+    }
+  ]

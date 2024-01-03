@@ -162,29 +162,37 @@ async def getMazdaData(session, qty):
         return False
     
 async def getNissanData(session, qty):
+    #Yea this one doesn't work there's something wrong with the website redirecting or something idk I just manually did the nissans
     # Send an HTTP request to the URL
     response = await get_nissan(session)
+    print(response)
 
     carDataList = []
 
     #retrieve data elements
-    modelsYears = response.html.find('.col-sm-6 > h1')
-    msrpStrings = response.html.find('.col-sm-6 > p strong')
+    models = response.html.find('.usg-heading-4' '.c_310-1-heading-break' '.js-cta-title')
+    msrpStrings = response.html.find('.c_310-1-pricing-msrp')
 
     #Check to see if amount of data matches what's expected and create a list if so, if not print for troubleshooting
-    if len(msrpStrings) == len(modelsYears) == qty:
+    if len(msrpStrings) == len(models) == qty:
         for i in range(qty):
-            #Splitting the modelsyears strings into the specific models and years for each one
-            #Specified none in the split because there was one random ass non-breaking space for some reason
-            splittempa = modelsYears[i].text.split(None, 1)
-            modelYear = splittempa[0]
-            model = splittempa[1]
+            #msrp is finally simple
+            msrp = msrpStrings[i].text
 
-            #Splitting the msrp strings to only grab the actual price
-            if 'Starting at ' in msrpStrings[i].text and ' MSRP*' in msrpStrings[i].text:
-                msrp = msrpStrings[i].text.split('Starting at ')[1].split(' MSRP*')[0]
+            #No easy way to get the years lmao I change them manually because there's only a couple 2023s
+            modelYear = "2024"
+
+            #Model is weirdly complex to do
+            if 'Nissan ' in models[i].text:
+                modelTemp = models[i].text.split('Nissan ')[1]
             else:
-                msrp = msrpStrings[i].text
+                modelTemp = models[i].text
+            if '®' in modelTemp:
+                modelTempb = modelTemp.replace('®', '')
+            else:
+                modelTempb = modelTemp
+
+            model = modelTempb
 
             #msrp works normally for this one for some reason no need to invert
             carData = {
@@ -197,36 +205,33 @@ async def getNissanData(session, qty):
         return carDataList
 
     else:
-        print("Inconsistent Data Lengths. Printing length of lists: MSRP Strings, Model/Year Strings, qty")
+        print("Inconsistent Data Lengths. Printing length of lists: MSRP Strings, Models, qty")
         print(len(msrpStrings))
-        print(len(modelsYears))
+        print(len(models))
         print(qty)
         return False
     
 async def getHondaData(session, qty):
+    #HAHAH Doesnt work either lmao the server blocks access i tried a vpn too didnt work cool manually doing honda as well :)
     # Send an HTTP request to the URL
     response = await get_honda(session)
 
     carDataList = []
 
+    print(response.html.html)
+
     #retrieve data elements
-    modelsYears = response.html.find('.col-sm-6 > h1')
-    msrpStrings = response.html.find('.col-sm-6 > p strong')
+    modelsYears = response.html.find('.VehicleCard_model-name__Xg-JS')
+    msrpStrings = response.html.find('.VehicleCard_value__Rf2Vx')
 
     #Check to see if amount of data matches what's expected and create a list if so, if not print for troubleshooting
     if len(msrpStrings) == len(modelsYears) == qty:
         for i in range(qty):
-            #Splitting the modelsyears strings into the specific models and years for each one
-            #Specified none in the split because there was one random ass non-breaking space for some reason
-            splittempa = modelsYears[i].text.split(None, 1)
-            modelYear = splittempa[0]
-            model = splittempa[1]
+            msrp = msrpStrings[i].text
 
-            #Splitting the msrp strings to only grab the actual price
-            if 'Starting at ' in msrpStrings[i].text and ' MSRP*' in msrpStrings[i].text:
-                msrp = msrpStrings[i].text.split('Starting at ')[1].split(' MSRP*')[0]
-            else:
-                msrp = msrpStrings[i].text
+            splittemp = modelsYears[i].text.split(' ', 1)
+            modelYear = splittemp[0]
+            model = splittemp[1]
 
             #msrp works normally for this one for some reason no need to invert
             carData = {
@@ -288,7 +293,7 @@ async def get_mazda(session):
     
 async def get_nissan(session):
     try:
-        response = await session.get('')
+        response = await session.get('https://www.nissanusa.com/vehicles/new.html')
         await response.html.arender()
         return response
     except Exception as e:
@@ -297,7 +302,7 @@ async def get_nissan(session):
     
 async def get_honda(session):
     try:
-        response = await session.get('')
+        response = await session.get('https://automobiles.honda.com/vehicles')
         await response.html.arender()
         return response
     except Exception as e:
@@ -320,11 +325,11 @@ async def main():
     '''mazdaOty = 9
     mazdaDataList = await getMazdaData(session, mazdaOty)'''
 
-    nissanOty = 0
-    nissanDataList = await getNissanData(session, nissanOty)
+    '''nissanOty = 18
+    nissanDataList = await getNissanData(session, nissanOty)'''
 
-    '''hondaOty = 0
-    hondaDataList = await getHondaData(session, hondaOty)'''
+    hondaOty = 15
+    hondaDataList = await getHondaData(session, hondaOty)
 
     #making sure datalists came back correctly before writing to json
     '''if toyotaDataList:
@@ -351,18 +356,17 @@ async def main():
         writeToJson(mazdaDataList, filename)
         print(f"Data written to {filename}")'''
 
-    if nissanDataList:
+    '''if nissanDataList:
         # Call function to write the list contents into the json file
         filename = "json_files/nissan.json"
         writeToJson(nissanDataList, filename)
-        print(f"Data written to {filename}")
+        print(f"Data written to {filename}")'''
 
-    #NOT DONE
-    '''if hondaDataList:
+    if hondaDataList:
         # Call function to write the list contents into the json file
         filename = "json_files/honda.json"
         writeToJson(hondaDataList, filename)
-        print(f"Data written to {filename}")'''
+        print(f"Data written to {filename}")
 
     #Need to close session to avoid loop exceptions
     await session.close()

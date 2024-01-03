@@ -1,0 +1,98 @@
+[
+    {
+      "Make": "Nissan",
+      "Model": "Pathfinder",
+      "Year": "2024",
+      "MSRP": "$35,980"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Rogue",
+      "Year": "2023",
+      "MSRP": "$27,910"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "ARIYA",
+      "Year": "2023",
+      "MSRP": "$43,190"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Kicks",
+      "Year": "2024",
+      "MSRP": "$20,950"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Murano",
+      "Year": "2024",
+      "MSRP": "$38,090"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Armada",
+      "Year": "2024",
+      "MSRP": "$55,620"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "LEAF",
+      "Year": "2024",
+      "MSRP": "$28,140"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Versa",
+      "Year": "2024",
+      "MSRP": "$16,290"
+    },
+    {
+      "Make": "Nissan",
+      "Model": "Sentra",
+      "Year": "2024",
+      "MSRP": "$20,790"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "Altima",
+        "Year": "2024",
+        "MSRP": "$25,900"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "Maxima",
+        "Year": "2023",
+        "MSRP": "$38,340"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "Frontier",
+        "Year": "2024",
+        "MSRP": "$29,930"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "TITAN",
+        "Year": "2024",
+        "MSRP": "$45,940"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "TITAN XD",
+        "Year": "2024",
+        "MSRP": "$52,100"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "Z",
+        "Year": "2024",
+        "MSRP": "$42,210"
+    },
+    {
+        "Make": "Nissan",
+        "Model": "GT-R",
+        "Year": "2024",
+        "MSRP": "$120,990"
+    }
+  ]
